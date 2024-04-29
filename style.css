@@ -65,15 +65,13 @@ body {
 
 .first-section-personal-information {
     height: 100vh;
-    border-left: 2px solid #ffabab;
-    border-right: 2px solid #ffabab;
     border-bottom: 1px solid white;
     background-color: #160000;
 }
 
 .titulo-presentacion {
     width: 70%;
-    height: 20%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,6 +83,7 @@ body {
     height: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 2em;
 }
 
@@ -104,6 +103,7 @@ body {
 .wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 72%;
     height: 350px;
 }
@@ -112,9 +112,8 @@ body {
 
 .picture-of-me {
     width: 390px;
-    height: 520px;
+    height: 500px;
     border-radius: 70px;
-    margin-bottom: 5em;
     float: right;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
@@ -127,6 +126,7 @@ body {
     align-items: center;
     width: 80%;
     height: 100%;
+    max-width: 950px;
 }
 
 .links a {
@@ -139,37 +139,15 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     width: 220px;
     height: 70px;
     font-size: 1.5em;
     margin: 0 2.6em;
+    gap: 20px;
     border-radius: 5%;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
-}
-
-.github{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.linkedin {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.instagram {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.curriculum {
-    display: flex;
-    align-items: center;
-    gap: 20px;
 }
 
 .links img {
@@ -179,25 +157,26 @@ body {
 .link:hover {
     transform: scale(1.1);
     transition: 0.5s;
-    border: 1px solid rgb(104, 11, 11);
+    border: 2px solid rgb(163, 50, 50);
+    box-shadow: 0 0 80px rgb(173, 12, 12);
 }
 
 
 /*Segunda seccion - mi descripcion */
 
 .second-section-about-me {
-    height: 820px;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background-color: rgb(17, 1, 1);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
+    border-top: solid;
 }
 
 .about-me {
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 
@@ -224,55 +203,39 @@ body {
 /*Tercera seccion - mis skills*/
 
 .third-section-skills {
-    height: 300px;
-    display: block;
-    border: solid;
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    height: 80vh;
+    background-color: #160000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     box-shadow: 0 0 80px rgb(104, 11, 11);
+    border-top: solid;
 }
 
 .third-section-skills h2 {
-    font-size: 2.6em;
+    font-size: 3.6em;
     text-align: center;
-    height: 100px;
+    height: 10vh;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     text-shadow: 2px 2px 2px red;
+    margin-bottom: 0.5em;
 }
 
 .skills-container {
     display: flex;
-    justify-content: center;
-    gap: 7em;
+    gap: 5em;
     flex-wrap: wrap;
-    align-items: center;
-    animation: rebote 2.1s infinite;
-}
-
-@keyframes rebote {
-    0% {
-        transform: translateY(0);
-        transform: scale(1.0.0,1);
-        transition: 10s;
-    }
-    50% {
-        transform: translateY(-10px);
-        transform: scale(1.0.0,1);
-        transition: 10s;
-    }
-    100% {
-        transform: translateY(0);
-        transform: scale(1.0,0,1);
-        transition: 10s;
-    }
+    align-items: center; 
+    height: 25vh;
 }
 
 .skills-container img {
     height: 100px;
-    width: 100px;
-    padding-top: 4em;
-    border-radius: 30%;
+    width: 120px;
+    margin: 0 2em;
 }
 
 
