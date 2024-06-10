@@ -85,10 +85,10 @@ body {
 }
 
 .personal-information{
-    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5em;
 }
 
 .titulo-presentacion {
@@ -122,14 +122,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 55vh;
+    height: 60vh;
 }
 
 /*Foto de perfil*/
 
 .picture-of-me {
-    width: 20%;
-    height: 100%;
+    width: 320;
+    height: 410px;
     float: right;
     margin-left: 1em;
     border: 2px solid rgba(255, 255, 255, 0.1);
