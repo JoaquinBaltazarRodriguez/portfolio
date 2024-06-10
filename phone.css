@@ -1,4 +1,8 @@
 @media (max-width: 850px) {
+    .first-section-personal-information {
+        height: 85vh;
+    }
+
     .titulo-presentacion-tablet {
         font-size: 1.3em;
         font-weight: bold;
@@ -6,6 +10,7 @@
 
     .wrapper {
         flex-direction: row;
+        margin-bottom: 2em;
     }
     
     .picture-of-me {
@@ -26,12 +31,15 @@
 
     /* Second section */
 
+    .second-section-about-me {
+        height: 85vh;
+    }
+
     .tittle {
         margin-top: 1em;
     }
 
     .about-me {
-        margin-top: 2em;
         display: flex;
     }
     
@@ -39,7 +47,6 @@
         display: flex;
         align-items: center;
         width: 100%;
-        height: 75vh;
         border: none;
         box-shadow: none;
     }
