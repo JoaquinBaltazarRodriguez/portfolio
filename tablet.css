@@ -82,7 +82,7 @@
     /* Segunda seccion */
 
     .second-section-about-me {
-        height: 70vh;
+        height: 80vh;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -91,7 +91,7 @@
 
     .tittle {
         font-size: 3em;
-        margin: 1.5em;
+        margin: 0;
     }
 
     .about-me {
