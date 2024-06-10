@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="phone.css">
 </head>
 <body>
     <header>
 
-        <div class="header-container">
+        <div class="header-container max-w-full">
 
             <div class="titulo-header">
                 <a href="#first-section"><h2>Joaquin Baltazar Rodriguez</h2></a>
             </div>
+            <h2 class="tittle-tablet">Mi portfolio</h2>
+            
 
             <div class="navbar">
                 <a href="#my-info-section">Sobre mí</a>
@@ -34,7 +38,10 @@
             <div class="personal-information max-w-full flex-wrap">
                 
                 <h1 class="titulo-presentacion">
-                    Mi nombre es Joaquin Rodriguez de Argentina <br>desarrollador web Front-end
+                    Mi nombre es Joaquin Rodriguez de Argentina - desarrollador web Front-end
+                </h1>
+                <h1 class="titulo-presentacion-tablet">
+                    Joaquin Rodriguez - Desarrollador web Front-end
                 </h1>
 
                 <div class="wrapper">
@@ -76,11 +83,10 @@
         </section>
 
         <section class="second-section-about-me" id="my-info-section">
-
+            <h2 class="tittle">
+                Sobre mi...
+            </h2>
             <div class="about-me">
-                <h2 class="tittle">
-                    Sobre mi...
-                </h2>
                 <p class="my-description">
                     Estudiante de programación enfocado al desarrollo web front-end. Soy un estudiante que busca la oportunidad para adquirir experiencia con lenguaje de marcado, scripting, frameworks y forjar las habilidades del diseño web, diseño responsivo y SEO.
 
@@ -171,7 +177,20 @@
                 </div>
             </div>
 
+            <div class="container-first-proyect">
+                <div class="first-proyect">
+                    <img class="image-first-proyect" src="images/Proyecto1.png">
+                    <p class="description-of-first-proyect">Pagina web que trata sobre un temporizador de descanso, con 3 opciones de duracion y música incluida.</p>
+                </div>
+                
+                <div class="buttons">
+                    <a href="https://joaquinbaltazarrodriguez.github.io/fokus-page/" target="blank" class="demo-button">VER DEMO</a>
+                </div>
+            </div>
+
         </section>
+
+        
 
     </main>
     <footer>

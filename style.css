@@ -36,6 +36,10 @@ body {
     color: white;
 }
 
+.tittle-tablet {
+    display: none;
+}
+
 .navbar{
     display: flex;
     height: 100%;
@@ -80,22 +84,26 @@ body {
     box-shadow: 0 0 80px rgb(104, 11, 11);
 }
 
-.titulo-presentacion {
-    width: 70%;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    font-size: 2.5em;
-    padding-top: 3em;
-}
-
 .personal-information{
-    height: 60vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
 }
+
+.titulo-presentacion {
+    text-shadow: 1.5px 1px 1px rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 4em;
+    width: 90%;
+}
+
+.titulo-presentacion-tablet {
+    display: none;
+}
+
 
 .information {
     display: flex;
@@ -113,17 +121,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 78%;
-    height: 80vh;
+    width: 100%;
+    height: 55vh;
 }
 
 /*Foto de perfil*/
 
 .picture-of-me {
-    width: 30vw;
-    height: 60vh;
-    border-radius: 70px;
+    width: 20%;
+    height: 100%;
     float: right;
+    margin-left: 1em;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
 }
@@ -132,8 +140,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 65%;
+    width: 55%;
+    height: 85%;
     max-width: 950px;
 }
 
@@ -150,8 +158,8 @@ body {
     width: 25%;
     height: 70px;
     font-size: 1.5em;
-    margin: 0 2.6em;
-    gap: 14px;
+    margin: 0 3em;
+    gap: 5px;
     border-radius: 5%;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
@@ -159,6 +167,7 @@ body {
 
 .links img {
     width: 20px;
+    max-width: 30%;
 }
 
 .link:hover {
@@ -173,39 +182,39 @@ body {
 
 .second-section-about-me {
     height: 100vh;
-    display: flex;
-    align-items: center;
     background-color: rgb(17, 1, 1);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
     border-top: solid rgb(250, 117, 117);
 }
 
-.about-me {
-    display: flex;
-    flex-direction: column;
-    padding-left: 4em;
-}
-
-
 .tittle {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 4em;
-    padding-left: 2em;
     text-shadow: 2px 2px 2px rgb(255, 0, 0);
-    height: 90px;
+    margin-top: 1.6em;
 }
 
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+
 .my-description {
+    display: flex;
     border-right: solid;
     border-bottom: solid;
     border-radius: 10px;
     box-shadow: 2px 2px 0 0 rgb(255, 0, 0);
     font-size: 1.5em;
-    max-width: 85%;
-    margin-top: 3em;
-    padding: 30px;
+    width: 80%;
+    padding: 35px;
 }
 
 /*Tercera seccion - mis skills*/
@@ -395,14 +404,17 @@ body {
 }
 
 .container-first-proyect {
-    margin-left: 5em;
-    margin-top: 3em;
+
+    border-radius: 90px;
+    background-color: #270505;
+    box-shadow: 0 0 80px rgb(104, 11, 11);
 }
 
 .first-proyect {
     display: flex;
     align-items: center;
     gap: 4em;
+    padding: 1em;
 }
 
 .image-first-proyect {
@@ -410,6 +422,7 @@ body {
     height: 500px;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
+    border-radius: 90px;
 }
 
 .description-of-first-proyect {
