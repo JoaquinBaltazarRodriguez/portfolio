@@ -128,10 +128,10 @@ body {
 /*Foto de perfil*/
 
 .picture-of-me {
-    width: 320;
-    height: 410px;
+    width: 20em;
+    height: 22em;
     float: right;
-    margin-left: 1em;
+    margin: 0 0 1em 1.5em;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
 }
