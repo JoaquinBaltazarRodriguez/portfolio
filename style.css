@@ -132,6 +132,7 @@ body {
 
 .picture-of-me {
     height: 65%;
+    width: 250px;
     object-fit: cover;
     float: right;
     border: 2px solid rgba(255, 255, 255, 0.1);
