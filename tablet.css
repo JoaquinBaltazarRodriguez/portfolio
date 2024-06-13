@@ -1,114 +1,71 @@
-@media (max-width: 1300px) {
-
-    /*Primera seccion */
+@media (max-width: 850px) {
     .header-container {
+        background-color: rgb(39, 3, 3);
         position: static;
-        background-color: #0f0f0f;
+    
+    }
+
+    .tittle-tablet {
+        display: flex;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        height: 85px;
+        width: 100%;
+        font-size: 22px;
+        border-bottom: solid rgb(250, 117, 117);
+        box-shadow: 0 0 80px rgb(104, 11, 11);
+        text-shadow: 2px 2px 2px rgb(255, 0, 0);  
     }
 
     .titulo-header {
         display: none;
     }
 
-    .titulo-header a {
-        display: none;
-    }
-
-    .tittle-tablet {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: 1.5em;
-        text-align: center;
-        align-items: center;
-        padding: 1em;
-    }
-
     .navbar {
         display: none;
     }
 
-    .first-section-personal-information {
-        height: 80vh;
-        display: flex;
-        align-items: center;
-    }
-
-    .personal-information {
-        height: 70vh;
-    }
-
-    .wrapper {
-        height: 60vh;
-        display: flex;
-        align-items: normal;
-    }
-
     .titulo-presentacion {
-        display: none;
+        display: none;        
     }
 
     .titulo-presentacion-tablet {
-        display: block;
-        font-size: 2em;
-        margin: 1em;
-        text-shadow: 1.5px 1px 1px rgb(255, 0, 0);
+        display: flex;
+        font-size: 1.4em;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgb(255, 0, 0);  
+        padding: 15px;
     }
-
+    
     .information {
         display: none;
     }
 
-    .links {
-        width: 65%;
-    }
-    
-    .link {
-        width: 30%;
-        margin: 0 0.8em;
-        padding: 1em;
-    }
-
-    .link a {
-        font-size: 0.8em;
+    .wrapper {
+        height: 350px;
     }
 
     .picture-of-me {
-        height: 20em;
-        width: 17em;
-        margin: 2em 0;
+        height: 70%;
     }
 
-    /* Segunda seccion */
-
-    .second-section-about-me {
-        height: 80vh;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
+    .links {
+        width: 70%;
     }
 
-    .tittle {
-        font-size: 3em;
-        margin: 0;
+    .links a {
+        font-size: 73%;
     }
 
-    .about-me {
-        height: auto;
+    .links im {
+        width: 10%;
+        max-width: none;
+        min-width: none;
     }
 
-    .my-description {
-        font-size: 1.4em;
-        height: auto;
-        margin: 0;
-        border-right: solid;
-        border-bottom: solid;
-        border-radius: 10px;
-        box-shadow: 1px 1px 0 0 rgb(255, 0, 0);
+    .link {
+        width: 40%;
     }
-
-    /*Tercera seccion */
-    
 
 }

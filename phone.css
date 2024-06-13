@@ -1,14 +1,18 @@
-@media (max-width: 850px) {
+@media (max-width: 500px) {
+    .navbar {
+        display: none;
+    }
+
     .first-section-personal-information {
-        height: 70vh;
+        height: 60%;
     }
 
     .titulo-presentacion-tablet {
-        font-size: 1.3em;
+        font-size: 1.1em;
         font-weight: bold;
         display: flex;
-        padding: 2em;
-        margin: 0;
+        margin: 1em;
+        text-shadow: 1px 1px 1px rgb(255, 0, 0);  
     }
 
     .personal-information {
@@ -19,24 +23,22 @@
 
     .wrapper {
         display: flex;
-        align-items: normal;
+        align-items: center;
         flex-direction: row;
-        width: 100vw;
-        height: 50vh;
+        height: 40vh;
     }
     
     .picture-of-me {
-        height: 19em;
-        width: 14em;
-        margin: 1.5em 1em 0 0;
+        height: 85%;
+        width: 40%;
     }
 
     .links {
-        display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        height: auto;
         gap: 5px;
+        height: 80%;
+        flex-wrap: nowrap;
+        width: 40%;
     }
 
     .link {
