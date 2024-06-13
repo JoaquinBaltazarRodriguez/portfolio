@@ -125,13 +125,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 500px;
+    height: 65vh;
 }
 
 /*Foto de perfil*/
 
 .picture-of-me {
     height: 65%;
+    object-fit: cover;
     float: right;
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -387,85 +388,7 @@ body {
     width: 70%;
 }
 
-/*sexta seccion - proyectos */
 
-.sixth-section-proyects {
-    min-height: 100vh;
-    background-color: #160000;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 80px rgb(104, 11, 11);
-    border-top: solid rgb(250, 117, 117);
-}
-
-.sixth-section-proyects h1 {
-    font-size: 3em;
-    text-shadow: 2px 2px 2px red;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container-first-proyect {
-
-    border-radius: 90px;
-    background-color: #270505;
-    box-shadow: 0 0 80px rgb(104, 11, 11);
-}
-
-.first-proyect {
-    display: flex;
-    align-items: center;
-    gap: 4em;
-    padding: 1em;
-}
-
-.image-first-proyect {
-    width: 590px;
-    height: 500px;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 80px rgb(104, 11, 11);
-    border-radius: 90px;
-}
-
-.description-of-first-proyect {
-    width: 55%;
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-}
-
-.buttons {
-    width: 590px;
-    height: 110px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.buttons a {
-    text-decoration: none;
-}
-
-.demo-button {
-    background-color: #140000;
-    color: white;
-    height: 70px;
-    width: 190px;
-    box-shadow: 0 0 80px rgb(104, 11, 11);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.demo-button:hover {
-    transform: scale(1.01);
-    transition: 0.5s;
-    border: 2px solid rgb(163, 50, 50);
-    box-shadow: 0 0 80px rgb(173, 12, 12);
-    cursor: pointer;
-}
 
 
 

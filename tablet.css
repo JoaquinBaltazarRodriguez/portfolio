@@ -5,6 +5,11 @@
     
     }
 
+    .first-section-personal-information {
+        height: auto;
+    }
+
+
     .tittle-tablet {
         display: flex;
         font-weight: bold;
@@ -44,6 +49,7 @@
 
     .wrapper {
         height: 350px;
+        gap: 25px;
     }
 
     .picture-of-me {
@@ -65,7 +71,8 @@
     }
 
     .link {
-        width: 40%;
+        width: 45%;
+        font-size: 18px;
     }
 
 }

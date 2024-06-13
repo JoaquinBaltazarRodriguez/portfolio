@@ -4,7 +4,7 @@
     }
 
     .first-section-personal-information {
-        height: 60vh;
+        height: auto;
     }
 
     .titulo-presentacion-tablet {
@@ -25,24 +25,25 @@
         display: flex;
         align-items: center;
         flex-direction: row;
-        height: 40vh;
+        height: 35vh;
     }
     
     .picture-of-me {
-        height: 85%;
+        height: 90%;
         width: 40%;
+        max-width: 40%;
     }
 
     .links {
-        flex-direction: column;
+        display: flex;
         gap: 5px;
-        height: 80%;
-        flex-wrap: nowrap;
-        width: 40%;
+        width: 45%;
+        height: auto;
     }
 
     .link {
         width: 75%;
+        height: 50px;
     }
 
     /* Second section */
