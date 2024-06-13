@@ -48,7 +48,7 @@
     /* Second section */
 
     .second-section-about-me {
-        height: 70vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -58,6 +58,7 @@
     .tittle {
         margin: 0;
         font-size: 2em;
+        padding: 15px;
     }
 
     .about-me {
@@ -73,5 +74,44 @@
         border-bottom: solid;
         border-radius: 10px;
         box-shadow: 0.5px 0.5px 0 0 rgb(255, 0, 0);
+        padding: 10px;
+    }
+
+    /* third section */
+
+    .third-section-skills h2 {
+        font-size: 38px;
+    }
+
+    .skills-container {
+        height: 55%;
+        width: 60%;
+    }
+
+    .skills-container img {
+        height: 18%;
+        width: 30%;
+    }
+
+    .fourth-section-hobbies {
+        display: none;
+    }
+
+    /* fifth section */
+    
+    .fifth-section-formation h1 {
+        font-size: 38px;
+    }
+
+    .formaciones {
+        flex-wrap: wrap;
+    }
+
+    .formacion {
+        width: 100%;
+    }
+
+    .formacion .formation-name {
+        display: none;
     }
 }

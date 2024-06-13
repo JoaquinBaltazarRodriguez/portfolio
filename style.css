@@ -233,12 +233,13 @@ body {
     justify-content: center;
     box-shadow: 0 0 80px rgb(104, 11, 11);
     border-top: solid rgb(250, 117, 117);
+    gap: 15px;
 }
 
 .third-section-skills h2 {
     font-size: 3.6em;
     text-align: center;
-    height: 170px;
+    padding: 25px;
     display: flex;
     align-items: start;
     justify-content: center;
@@ -247,11 +248,12 @@ body {
 
 .skills-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
     flex-wrap: wrap;
     align-items: center; 
-    height: 35vh;
-    width: 80%;
+    height: 35%;
+    width: 70%;
     border: solid rgb(225, 114, 114);
     border-radius: 75px;
     box-shadow: 0 0 30px rgb(205, 127, 127);
@@ -260,7 +262,7 @@ body {
 
 .skills-container img {
     height: 50%;
-    width: 16%;
+    width: 15%;
 }
 
 .skills-container p {
@@ -301,7 +303,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center; 
-    height: 35vh;
+    height: 35%;
     width: 90%;
     border: solid rgb(225, 114, 114);
     border-radius: 75px;
@@ -311,17 +313,12 @@ body {
 
 .hobbies {
     display: flex;
-    gap: 5px;
+    gap: 15px;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    width: 12%;
-    height: 50%;
+    width: 10%;
 }
 
-.hobbies p {
-    margin-top: 1em;
-}
 
 
 
@@ -346,14 +343,14 @@ body {
     align-items: center;
     font-size: 4em;
     width: 50%;
-    padding: 1em;
+    padding: 10px;
     text-shadow: 2px 2px 2px red;
 }
 
 .formaciones {
     display: flex;
     align-items: center;
-    max-width: 100%;
+    width: 85%;
 }
 
 .formacion {
@@ -363,19 +360,23 @@ body {
     justify-content: center;
     height: 65vh;
     width: 50%;
+    gap: 30px;
 }
 
 .formacion p {
     display: flex;
     align-items: center;
-    height: 70px;
-    font-size: 1.4em;
+    height: auto;
+    font-size: 1.2em;
+    width: 60%;
+    justify-content: center;
 }
 
 .logo-alura {
     background-color: white;
-    height: 330px;
-    width: 70%;
+    height: 50%;
+    width: 60%;
+    border-radius: 50px;
 }
 
 
@@ -385,12 +386,40 @@ body {
 }
 
 .incade {
-    height: 330px;
-    width: 70%;
+    height: 50%;
+    width: 60%;
+    border-radius: 50px;
 }
 
+/* sexta seccion - proyectos */
 
+.sixt-section-proyect {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 1, 1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgb(104, 11, 11);
+    border-top: solid rgb(250, 117, 117);
+}
 
+.demos {
+    border: solid;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgb(104, 11, 11);
+    text-shadow: 1px 1px 1px red;
+}
+
+.demos:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid rgb(163, 50, 50);
+    box-shadow: 0 0 80px rgb(173, 12, 12);
+    text-shadow: 2px 2px 2px red;
+}
 
 
 
