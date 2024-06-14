@@ -11,8 +11,6 @@ html {
 body {
     background-color: black;
     color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100vh;
 }
 
 .header-container{
@@ -83,6 +81,7 @@ body {
     background-color: rgb(17, 1, 1);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
+    height: 700px;
 }
 
 .personal-information{
@@ -125,7 +124,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 65vh;
+    height: 475px;
 }
 
 /*Foto de perfil*/
@@ -186,7 +185,7 @@ body {
 /*Segunda seccion - mi descripcion */
 
 .second-section-about-me {
-    height: 100vh;
+    height: 650px;
     background-color: rgb(17, 1, 1);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
@@ -207,7 +206,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
 }
 
 
@@ -350,7 +348,6 @@ body {
 .formaciones {
     display: flex;
     align-items: center;
-    width: 85%;
 }
 
 .formacion {
@@ -375,7 +372,7 @@ body {
 .logo-alura {
     background-color: white;
     height: 50%;
-    width: 60%;
+    width: 70%;
     border-radius: 50px;
 }
 
@@ -387,7 +384,7 @@ body {
 
 .incade {
     height: 50%;
-    width: 60%;
+    width: 70%;
     border-radius: 50px;
 }
 
