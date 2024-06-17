@@ -15,7 +15,7 @@
         font-weight: bold;
         align-items: center;
         justify-content: center;
-        height: 85px;
+        height: 100%;
         width: 100%;
         font-size: 22px;
         border-bottom: solid rgb(250, 117, 117);
@@ -138,9 +138,17 @@
         text-align: center;
     }
 
-    .seven-section-contact h2 {
+    .buttons {
+        width: 30%;
+    }
+
+    .seven-section-contact {
         display: flex;
         justify-content: center;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 80px rgb(104, 11, 11);
+        border-top: solid rgb(250, 117, 117);
+        padding: 25px;
     }
 
     .container-contact {
@@ -149,6 +157,15 @@
         gap: 15px;
         align-items: center;
         justify-content: center;
+        padding: 25px;
+    }
+
+    .container-contact h2 {
+        font-size: 30px;
+    }
+
+    .container-contact {
+        gap: 30px;
     }
 
     .container-contact input {
@@ -159,4 +176,26 @@
         color: rgb(255, 255, 255);
         text-shadow: 1px 1px 1px rgb(255, 0, 0);  
     }
+
+    .container-contact textarea {
+        border: 1px solid white;
+        box-shadow: 0 0 50px rgb(104, 11, 11);
+        background-color: rgb(58, 10, 10);
+        color: white;
+    }
+
+    .container-contact button {
+        margin-top: 1em;
+        padding: 15px;
+        width: 190px;
+        border: 1px solid rgb(76, 31, 31);
+        box-shadow: 0 0 50px rgb(104, 11, 11);
+        background-color: rgb(33, 3, 3);
+        color: white;
+    }
+
+    .seven-section-contact img {
+        display: none;
+    }
+
 }

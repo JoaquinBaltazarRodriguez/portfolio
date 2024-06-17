@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,7 +29,7 @@
                 <a href="#hobbies-section">Hobbies</a>
                 <a href="#formation-section">Formación</a>
                 <a href="#">Proyectos</a>
-                <a href="#">Contacto@</a>
+                <a href="#contact-section">Contacto@</a>
             </div>
 
         </div>
@@ -159,13 +163,14 @@
         </section>
 
         <section class="sixt-section-proyect">
-            <a href="#" class="demos">¡ECHALE UN VISTASO A MIS PROYECTOS!</a>
+            <a href="#first-section" class="buttons">Inicio</a>
+            <a href="#" class="buttons">¡ECHALE UN VISTASO A MIS PROYECTOS!</a>
+            <a href="contact.html" class="buttons">Contactame!</a>
         </section>
 
-        <section class="seven-section-contact">
-            <h2>Contactame!</h2>
-
+        <section class="seven-section-contact" id="contact-section">
             <form class="container-contact">
+                <h2>Contactame!</h2>
                 <label>Ingrese su nombre</label>
                 <input type="text" id="nombre" name="nombre" required>
                 <label>Ingrese su Apellido</label>
@@ -173,9 +178,10 @@
                 <label>Ingrese su correo</label>
                 <input type="email" id="mail" name="mail" required>
                 <label>Dejame un mensaje</label>
-                <textarea id="mensaje" name="mensaje" minlength="10" maxlength="100" required></textarea>
+                <textarea style="resize: none; padding: 5px;"  id="mensaje" name="mensaje" minlength="10" maxlength="100" rows="5" required></textarea>
                 <button type="submit" id="enviar">Enviar</button>
             </form>
+            <img src="images/generame-una-imagen-semi-realista-de-un-hombre-emp-uUn9LZjjQFmCc5PXgw1kRA-tLuRpkTuSeCurFMnAfQqdQ.jpeg">
         </section>
 
     </main>
