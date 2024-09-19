@@ -12,13 +12,14 @@
         font-weight: bold;
         display: flex;
         text-shadow: 1px 1px 1px rgb(255, 0, 0);  
+        margin-top: 2em;
     }
 
     .personal-information {
         display: flex;
         align-items: center;
         margin: 0;
-        height: 450px;
+        height: 50vh;
     }
 
     .wrapper {
@@ -95,38 +96,12 @@
         width: 30%;
     }
 
-    .fourth-section-hobbies {
-        display: none;
-    }
+
 
     /* fifth section */
     
     .fifth-section-formation h1 {
         font-size: 38px;
         margin: 1.5em 0 0 0;
-    }
-
-    .formaciones {
-        flex-wrap: wrap;
-    }
-
-    .formacion {
-        width: 100%;
-    }
-
-    .formacion .formation-name {
-        display: none;
-    }
-
-    .incade {
-        width: 80%;
-    }
-
-    .logo-alura {
-        width: 80%;
-    }
-
-    .formaciones {
-        margin: 0;
     }
 }

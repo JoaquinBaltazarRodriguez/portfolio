@@ -132,10 +132,11 @@
     
 
     .hobbies {
-        gap: 5px;
-        width: 100px;
-        height: 50px;
+        gap: 10px;
+        width: 20%;
+        height: 30%;
         text-align: center;
+        margin: 1em;
     }
 
     .buttons {

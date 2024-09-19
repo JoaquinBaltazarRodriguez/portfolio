@@ -208,6 +208,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 1em;
+    height: auto;
 }
 
 
@@ -215,7 +216,8 @@ body {
     display: flex;
     font-size: 1.5em;
     width: 80%;
-    padding: 35px;
+    height: 40vh;
+    align-items: center;
 }
 
 /*Tercera seccion - mis skills*/
@@ -265,7 +267,7 @@ body {
 /*Cuarta seccion - hobbies*/
 .fourth-section-hobbies {
     background-color: #160000;
-    height: 650px;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,8 +285,8 @@ body {
 }
 
 .fourth-section-hobbies img {
-    width: 75px;
-    height: 100px;
+    width: 45%;
+    height: 100%;
 }
 
 .container-hobbie {
@@ -292,97 +294,25 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center; 
-    height: 200px;
+    height: 100%;
     width: 70%;
-    border: solid rgb(225, 114, 114);
-    border-radius: 75px;
-    box-shadow: 0 0 30px rgb(205, 127, 127);
-    background-color: black;
     text-align: center;
 }
 
 .hobbies {
     display: flex;
-    gap: 15px;
     flex-direction: column;
     align-items: center;
-    width: 10%;
+    width: 15%;
+    margin: 1.4em;
 }
 
-
-
-
-/*Quinta seccion - formacion*/
-
-.fifth-section-formation {
-    min-height: 750px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(17, 1, 1);
-    box-shadow: 0 0 80px rgb(104, 11, 11);
-    border-top: solid rgb(250, 117, 117);
-}
-
-
-.fifth-section-formation h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4em;
-    width: 50%;
-    padding: 10px;
-    text-shadow: 2px 2px 2px red;
-}
-
-.formaciones {
-    display: flex;
-    align-items: center;
-}
-
-.formacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 550px;
-    width: 50%;
-    gap: 30px;
-}
-
-.formacion p {
-    display: flex;
-    align-items: center;
-    height: auto;
-    font-size: 1.2em;
-    width: 60%;
-    justify-content: center;
-}
-
-.logo-alura {
-    background-color: white;
-    height: 50%;
-    width: 70%;
-    border-radius: 50px;
-}
-
-
-.formacion img:hover {
-    transform: scale(1.02);
-    transition: 1s;
-}
-
-.incade {
-    height: 50%;
-    width: 70%;
-    border-radius: 50px;
-}
+/*Quinta seccion - formacion (eliminado)*/ 
 
 /* sexta seccion - proyectos */
 
 .sixt-section-proyect {
-    height: 250px;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -431,6 +361,7 @@ body {
     gap: 30px;
     padding: 35px;
     align-items: center;
+    padding: 10px;
 }
 
 .container-contact h2 {
@@ -454,7 +385,7 @@ body {
     }
 
 .container-contact button {
-    margin-top: 2em;
+    margin-top: 1.3em;
     padding: 15px;
     width: 190px;
     border: 1px solid rgb(76, 31, 31);
