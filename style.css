@@ -250,10 +250,6 @@ body {
     align-items: center; 
     height: 200px;
     width: 70%;
-    border: solid rgb(225, 114, 114);
-    border-radius: 75px;
-    box-shadow: 0 0 30px rgb(205, 127, 127);
-    background-color: black;
 }
 
 .skills-container img {
