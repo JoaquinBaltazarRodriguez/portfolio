@@ -86,21 +86,20 @@
     }
 
     .skills-container {
-        height: 400px;
+        height: auto;
         width: 60%;
         margin: 0;
     }
 
     .skills-container img {
-        height: 70px;
-        width: 30%;
+        height: 90px;
+        width: 90px;
+        margin: 0.4em;
     }
-
-
 
     /* fifth section */
     
-    .fifth-section-formation h1 {
+    .fifth-section-formation h2 {
         font-size: 38px;
         margin: 1.5em 0 0 0;
     }
