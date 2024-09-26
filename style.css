@@ -187,7 +187,7 @@ body {
 /*Segunda seccion - mi descripcion */
 
 .second-section-about-me {
-    height: 685px;
+    height: auto;
     background-color: rgb(17, 1, 1);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 80px rgb(104, 11, 11);
@@ -200,7 +200,7 @@ body {
     justify-content: center;
     font-size: 4em;
     text-shadow: 2px 2px 2px rgb(255, 0, 0);
-    margin-top: 1.6em;
+    margin-top: 1em;
 }
 
 .about-me {
@@ -217,8 +217,9 @@ body {
     display: flex;
     font-size: 1.5em;
     width: 80%;
-    height: 40vh;
+    height: auto;
     align-items: center;
+    margin: 2.5em 0 5em 0;
 }
 
 /*Tercera seccion - mis skills*/
@@ -313,16 +314,29 @@ body {
     background-color: #160000;
 }
 
+.container-buttons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
 .buttons {
-    border: solid;
-    font-size: 14px;
-    width: 18%;
+    font-size: 1em;
+    width: 250px;
+    height: 50%;
     text-align: center;
     padding: 20px;
     border-radius: 15px;
     border: 2px solid rgb(232, 69, 69);
     box-shadow: 0 0 80px rgb(104, 11, 11);
     text-shadow: 1px 1px 1px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons:hover {

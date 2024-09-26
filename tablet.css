@@ -80,11 +80,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 570px;
+        height: auto;
     }
 
     .tittle {
-        margin: 0;
+        padding: 15px 0 0 0;
         font-size: 42px;
     }
 
@@ -96,6 +96,7 @@
     .my-description {
         font-size: 18px;
         padding: 15px;
+        margin: 0 0 1em 0;
     }
 
     .third-section-skills {
