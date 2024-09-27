@@ -14,6 +14,19 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; /* Para que esté siempre encima de otros elementos */
+}
+
+.logo-whatsapp {
+    max-width: 100%;
+    height: auto;
+    width: 75px;
+}
+
 .header-container{
     display: flex;
     align-items: center;
@@ -38,6 +51,12 @@ body {
 .titulo-header a {
     text-decoration: none;
     color: white;
+}
+
+.titulo-header:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 0 80px rgb(133, 19, 19);
 }
 
 .tittle-tablet {
