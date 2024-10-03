@@ -2,7 +2,10 @@
     .header-container {
         background-color: rgb(39, 3, 3);
         position: static;
-    
+    }
+
+    .whatsapp-link {
+        display: none;
     }
 
     .first-section-personal-information {
