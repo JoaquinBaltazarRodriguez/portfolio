@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    height: 5em;
+}
+
+.titulo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.titulo-header a {
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.navbar a{
+    display: flex;
+    color: white;
+    height: 87%;
+}
+
+.navbar a:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 0 80px rgb(0, 0, 0);
+}
+
+.header-container a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin: 20px;
+}
+
+.image-container h2 {
+    margin: 3em 0 2em 0;
+    font-size: 2em;
+}
+
+.image-info {
+    margin: 10px;
+    width: 80%;
+    padding: 10px;
+}
+
+.proyect-image {
+    max-width: 80%; /* La imagen se ajustará al ancho máximo del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
