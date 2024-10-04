@@ -34,6 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5em;
+    font-size: 20px;
 }
 
 .navbar a{
@@ -72,10 +73,17 @@ body {
     margin: 10px;
     width: 80%;
     padding: 10px;
+    font-size: 18px;
+    margin: 30px 0 0 0;
 }
 
 .proyect-image {
     max-width: 80%; /* La imagen se ajustará al ancho máximo del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.proyect-image:hover {
+    transform: scale(1.03);
+    transition: 1.5s;
 }
 
